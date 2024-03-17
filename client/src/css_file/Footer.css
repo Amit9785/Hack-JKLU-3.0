@@ -1,0 +1,12 @@
+/* Add footer styles */
+.footer {
+    display: flex;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 20px; /* Add padding for spacing */
+    width: 100%; /* Full width */
+    height: 30vh;
+    bottom: 0; /* Stick to the bottom */
+  }
+  

@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh ;
+}
+
+.NAVBAR {
+  height: 10vh;
+  background-image: url("../images/image_nav.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* position:fixed; */
+  z-index: 5;
+  width: 95%;
+  margin-top: 0;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+nav {
+  background-color: #ffffff;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 60px 60px;
+  border: 1px groove rgb(0, 0, 0);
+  color: aliceblue;
+}
+
+nav ul {
+  display: flex;
+  /* padding: .8%;   */
+  width: 98%;
+  font-size: large;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul li {
+  height: 70%;
+  font: bolder;
+}
+nav a {
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+nav a:hover {
+  height: 6vh;
+  border-radius: 0 0 60px 60px;
+  text-decoration: overline rgb(108, 192, 220);
+  background-color: rgba(152, 156, 153, 0.308);
+  color: rgb(239, 182, 11);
+}
+
+nav li:first-child {
+  margin-right: auto;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: rgba(132, 140, 133, 0);
+  backdrop-filter: blur(10px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.visible {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: rgba(220, 217, 217, 0);
+  backdrop-filter: blur(10px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+}
+.sidebar a:hover {
+  background-color: rgba(57, 87, 61, 0.382);
+  color: rgb(192, 243, 179);
+  border-radius: 5px;
+}
+
+.sidebar li {
+  width: 98%;
+  padding: 0;
+}
+.sidebar a {
+  width: 100%;
+  padding: 0 20px 10px;
+  /* margin: 10px 10px 10px 10px; */
+}
+#firstlinav {
+  background-color: rgba(255, 255, 255, 0.016);
+}
+#menubutton {
+  display: none;
+}
+@media (max-width: 800px) {
+  .hideOnMobile {
+    display: none;
+  }
+  #menubutton {
+    display: block;
+  }
+}
+@media (max-width: 480px) {
+  .sidebar {
+    width: 100%;
+  }
+  #menubutton {
+    display: block;
+  }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+}

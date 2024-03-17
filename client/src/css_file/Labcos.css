@@ -1,0 +1,49 @@
+/* CSS for Button Page */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.outer{
+    height:100vh;
+}
+.butt-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+}
+
+.butt-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust margin between buttons and message */
+}
+
+.butt {
+    padding: 30px 60px;
+    font-size: 24px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex-grow: 1; /* Each button takes equal space */
+}
+
+#butt1 {
+    background-color: #000000; /* Lighter shade of green for button 1 */
+}
+
+#butt2 {
+    background-color: #000000; /* Darker shade of green for button 2 */
+}
+
+.butt:hover {
+    opacity: 0.8; /* Reduce opacity on hover */
+}
+.message>h1{
+    color: #000000;
+}

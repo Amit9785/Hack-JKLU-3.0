@@ -1,0 +1,40 @@
+.container{
+    background-color: rgb(155, 155, 155);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2%;
+    border: 1% solid #0b0000;
+    border-radius: 3%;
+    box-shadow: 10% 10% 10% 10% rgba(0, 0, 0, 0);
+    z-index: 3;
+
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    font-weight: bold;
+}
+input[type="text"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.btnl{
+    /* background-color: #4caf50; */
+    color: #f02c2c;
+    padding: 10px 20px;
+    /* border: none; */
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btnl:hover {
+    background-color: #45a049;
+}

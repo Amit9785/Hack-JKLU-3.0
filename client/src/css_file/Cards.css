@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.car {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 52%;
+  height: 50%;
+  margin: 2%;
+  /* padding: 10px; */
+}
+
+.img1 {
+  height: 100%;
+  width: 100%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), 10px solid black; /* Combined box-shadow */
+}
+.img2 {
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-content: baseline;
+  height: 100%;
+  color: rgb(0, 0, 0);
+}
